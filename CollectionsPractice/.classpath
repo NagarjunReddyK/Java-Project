@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/ATU_Selenium_Utilities_3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/ATUTestRecorder_2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/commons-codec-1.8.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/cssparser-0.9.11.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/guava-15.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/htmlunit-2.13.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/htmlunit-core-js-2.13.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/httpmime-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/ini4j-0.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/itextpdf-5.4.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/java-util-1.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/jetty-websocket-8.1.8.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/jna-platform-3.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/json-20080701.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/mail.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/mail-1.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/msbase.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/mssqlserver.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/msutil.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/nekohtml-1.9.19.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/operadriver-1.5.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/phantomjsdriver-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/poi-3.12.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/poi-3.12L.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/poi-ooxml-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/poi-ooxml-schemas-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/selenium-java-2.39.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/selenium-java-2.39.0-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Project/Selenium/XTBills_Automation/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58" started-at="2016-02-03T07:53:56Z" finished-at="2016-02-03T07:53:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58" started-at="2016-02-03T07:53:56Z" finished-at="2016-02-03T07:53:56Z">
+      <class name="Login">
+        <test-method status="PASS" signature="loadXML()[pri:0, instance:Login@d25538]" name="loadXML" is-config="true" duration-ms="842" started-at="2016-02-03T13:23:55Z" finished-at="2016-02-03T13:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadXML -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:Login@d25538]" name="testLogin" duration-ms="26" started-at="2016-02-03T13:23:56Z" finished-at="2016-02-03T13:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
