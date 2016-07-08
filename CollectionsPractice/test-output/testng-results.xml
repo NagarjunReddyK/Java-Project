@@ -1,80 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17016" started-at="2016-06-23T06:15:48Z" finished-at="2016-06-23T06:16:05Z">
+  <suite name="Default suite" duration-ms="17760" started-at="2016-07-01T05:16:53Z" finished-at="2016-07-01T05:17:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17016" started-at="2016-06-23T06:15:48Z" finished-at="2016-06-23T06:16:05Z">
+    <test name="Default test" duration-ms="17760" started-at="2016-07-01T05:16:53Z" finished-at="2016-07-01T05:17:11Z">
       <class name="basics.ZohoScreen">
-        <test-method status="FAIL" signature="getScreenshot()[pri:0, instance:basics.ZohoScreen@ad1355]" name="getScreenshot" duration-ms="16988" started-at="2016-06-23T11:45:48Z" finished-at="2016-06-23T11:46:05Z">
-          <exception class="net.sf.cglib.core.CodeGenerationException">
-            <message>
-              <![CDATA[java.lang.IllegalAccessException-->Class org.openqa.selenium.remote.Augmenter$CompoundHandler can not access a member of class org.openqa.selenium.chrome.ChromeDriver with modifiers "protected"]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[net.sf.cglib.core.CodeGenerationException: java.lang.IllegalAccessException-->Class org.openqa.selenium.remote.Augmenter$CompoundHandler can not access a member of class org.openqa.selenium.chrome.ChromeDriver with modifiers "protected"
-	at net.sf.cglib.core.ReflectUtils.newInstance(ReflectUtils.java:235)
-	at net.sf.cglib.core.ReflectUtils.newInstance(ReflectUtils.java:220)
-	at net.sf.cglib.core.ReflectUtils.newInstance(ReflectUtils.java:216)
-	at net.sf.cglib.proxy.Enhancer.createUsingReflection(Enhancer.java:640)
-	at net.sf.cglib.proxy.Enhancer.firstInstance(Enhancer.java:538)
-	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:225)
-	at net.sf.cglib.proxy.Enhancer.createHelper(Enhancer.java:377)
-	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:285)
-	at org.openqa.selenium.remote.Augmenter.performAugmentation(Augmenter.java:140)
-	at org.openqa.selenium.remote.Augmenter.create(Augmenter.java:53)
-	at org.openqa.selenium.remote.BaseAugmenter.augment(BaseAugmenter.java:114)
-	at ru.yandex.qatools.ashot.screentaker.ShootingStrategy$1.getScreenshot(ShootingStrategy.java:24)
-	at ru.yandex.qatools.ashot.screentaker.ScreenTaker.take(ScreenTaker.java:22)
-	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:138)
-	at basics.ZohoScreen.getScreenshot(ZohoScreen.java:32)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: java.lang.IllegalAccessException: Class org.openqa.selenium.remote.Augmenter$CompoundHandler can not access a member of class org.openqa.selenium.chrome.ChromeDriver with modifiers "protected"
-	at sun.reflect.Reflection.ensureMemberAccess(Unknown Source)
-	at java.lang.reflect.AccessibleObject.slowCheckMemberAccess(Unknown Source)
-	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.remote.Augmenter$CompoundHandler.intercept(Augmenter.java:183)
-	at org.openqa.selenium.chrome.ChromeDriver$$EnhancerByCGLIB$$28d90bb.startSession(<generated>)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:111)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:115)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:161)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:107)
-	at org.openqa.selenium.chrome.ChromeDriver$$EnhancerByCGLIB$$28d90bb.<init>(<generated>)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at net.sf.cglib.core.ReflectUtils.newInstance(ReflectUtils.java:228)
-	... 38 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- net.sf.cglib.core.CodeGenerationException -->
+        <test-method status="PASS" signature="getScreenshot()[pri:0, instance:basics.ZohoScreen@178aae2]" name="getScreenshot" duration-ms="17737" started-at="2016-07-01T10:46:53Z" finished-at="2016-07-01T10:47:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getScreenshot -->
