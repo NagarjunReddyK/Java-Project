@@ -5,7 +5,7 @@ public class MethodsDemo19 {
 		System.out.println("Number is: "+a);
 		if(a==0)
 			return;
-		recursive(--a);
+		recursive(--a); //calling same method within the method
 	}
 
 	public static void main(String[] args) {
