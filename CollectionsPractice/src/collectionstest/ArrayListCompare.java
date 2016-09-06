@@ -1,7 +1,6 @@
 package collectionstest;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -20,8 +19,8 @@ public class ArrayListCompare {
 
 
 	    // Sort and compare the two lists          
-	   // Collections.sort(a);
-	    //Collections.sort(b); 
+	  // Collections.sort(a);
+	   //Collections.sort(b); 
 	    Iterator<String> itr=list1.iterator();
 	    while(itr.hasNext()){
 	    	String str=itr.next();
@@ -43,9 +42,9 @@ public class ArrayListCompare {
 	        one.add("two");
 	        one.add("six");
 
-	        two.add("pop");
-	        two.add("two");
 	        two.add("six");
+	        two.add("two");
+	        two.add("one");
 	        System.out.println(equalLists(one, two));
 	}
 

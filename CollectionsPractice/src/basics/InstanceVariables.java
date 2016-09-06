@@ -13,7 +13,7 @@ public class InstanceVariables {
 	public static void main(String[] args){
 		InstanceVariables instance= new InstanceVariables();
 		instance.display();
-		instance.show();
+		//instance.show();
 		InstanceVariables.show();
 		show();
 	}
