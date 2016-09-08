@@ -1,15 +1,36 @@
 package basics;
 
 public class MethodsDemo19 {
-	static void recursive(int a){
-		System.out.println("Number is: "+a);
-		if(a==0)
-			return;
-		recursive(--a); //calling same method within the method
+	void login(){
+		System.out.println("Login");
+	}
+	void searchProduct(){
+		System.out.println("Search for Product");
+	}
+	void selectProduct(){
+		System.out.println("Select Product");
+	}
+	void billing(){
+		System.out.println("Billing information");
+	}
+	void purchase(){
+		System.out.println("--- Template Method ---");
+		login();
+		searchProduct();
+		selectProduct();
+		billing();
 	}
 
 	public static void main(String[] args) {
-		MethodsDemo19.recursive(10);
+		MethodsDemo19 obj = new MethodsDemo19();
+		//Normal approach
+		obj.login();
+		obj.searchProduct();
+		obj.selectProduct();
+		obj.billing();
+		// By using Template method
+		obj.purchase(); //this method calls four methods to complete our task	
+
 	}
 
 }
