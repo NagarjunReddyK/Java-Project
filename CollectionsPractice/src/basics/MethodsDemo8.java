@@ -1,5 +1,7 @@
 package basics;
 
+//Ex:8 java method calling
+
 public class MethodsDemo8 {
 	void method1(){
 		method2(); //calling method2()

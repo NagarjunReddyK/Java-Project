@@ -4,6 +4,7 @@ public class MethodsDemo3 {
 	void login1(Dashboard db){
 		System.out.println("login1 instance method with object as parameter");
 		db.dash();
+		//System.out.println(db.a);
 	}
 	static void login2(ApproveBills approve,PayBills pay){
 		System.out.println("login2 static method with two objects as parameters");
@@ -26,6 +27,7 @@ public class MethodsDemo3 {
 }
 
 class Dashboard{
+	//int a=10;
 	void dash(){
 		System.out.println("Method from Dashboard class");
 	}

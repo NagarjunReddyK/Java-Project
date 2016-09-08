@@ -21,10 +21,10 @@ public class MethodsDemo13 {
 		int sum=obj.add(10, 20);
 		System.out.println("add() return value is: "+sum);
 		
-		boolean result=obj.isValid("nkasu@xtglobal.com", "xeno@123");
+		boolean result=obj.isValid("nag@gmail.com", "test@123");
 		System.out.println("isValid() return value is: "+result);
 		
-		String user=MethodsDemo13.showText(1, "nkasu@xeno.com");
+		String user=MethodsDemo13.showText(1, "nagarjun@test.com");
 		System.out.println("showText() return value is: "+user);
 	}
 

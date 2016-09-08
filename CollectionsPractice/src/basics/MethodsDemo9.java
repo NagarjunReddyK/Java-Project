@@ -12,5 +12,4 @@ public class MethodsDemo9 {
 		MethodsDemo9 obj = new MethodsDemo9();
 		obj.add(5, 15);
 	}
-
 }
