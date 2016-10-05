@@ -2,11 +2,11 @@ package basics;
 
 public class StaticVariables4 {
 	int id=10; //instance variable
-	static String name="Murali"; //static variable
+	static String name="Test User"; //static variable
 	public static void main(String[] args){
 		StaticVariables4 obj = new StaticVariables4();
 		System.out.println(obj.id); //10
-		System.out.println(StaticVariables4.name); //Murali
+		System.out.println(StaticVariables4.name); //Test User
 		obj.id=111;
 		StaticVariables4.name="Nagarjun Reddy K";
 		System.out.println(obj.id); //111
@@ -19,7 +19,7 @@ public class StaticVariables4 {
 		StaticVariables4.name="Prasad";
 		StaticVariables4 obj3 = new StaticVariables4();
 		System.out.println(obj3.id); //10
-		System.out.println(StaticVariables4.name); //Nagarjun Reddy K
+		System.out.println(StaticVariables4.name); //Prasad
 		
 	}
 }

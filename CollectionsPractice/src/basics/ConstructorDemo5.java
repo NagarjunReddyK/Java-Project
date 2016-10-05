@@ -19,7 +19,7 @@ public class ConstructorDemo5 {
 	public static void main(String[] args) {
 		ConstructorDemo5 obj = new ConstructorDemo5("nkasu@gmail.com","asdf@123");
 		obj.display();
-		ConstructorDemo5 obj2 = new ConstructorDemo5("vdasari@gmail.com","test1234");
+		ConstructorDemo5 obj2 = new ConstructorDemo5("testuser@gmail.com","test1234");
 		obj2.display();
 	}
 

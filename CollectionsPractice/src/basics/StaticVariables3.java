@@ -7,13 +7,14 @@ public class StaticVariables3 {
 	
 	// static variables
 	static int age=30;
-	static String designation="Sr. Test Engineer";
+	static String designation="Senior Test Engineer";
 
 	//instance method
 	void details(){
 		System.out.println(id+", "+name);
 		System.out.println(StaticVariables3.age+", "+StaticVariables3.designation);
 	}
+	//static method
 	static void display(){
 		StaticVariables3 obj = new StaticVariables3();
 		System.out.println(obj.id+", "+obj.name);
@@ -22,9 +23,9 @@ public class StaticVariables3 {
 	public static void main(String[] args){
 		StaticVariables3 obj = new StaticVariables3();
 		obj.details(); // calling instance method
-		display(); // calling static method directly
+		//display(); // calling static method directly
 		StaticVariables3.display(); // calling static method with classname.methodname
-		obj.display(); // calling static method by using object
+		//obj.display(); // calling static method by using object
 		
 	}
 

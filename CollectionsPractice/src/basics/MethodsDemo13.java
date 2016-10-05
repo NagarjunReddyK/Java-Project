@@ -5,6 +5,7 @@ public class MethodsDemo13 {
 		System.out.println("--- add method ---");
 		System.out.println(a+" --- "+b);
 		return a+b;
+		
 	}
 	boolean isValid(String username, String password){
 		System.out.println("--- isValid method ---");

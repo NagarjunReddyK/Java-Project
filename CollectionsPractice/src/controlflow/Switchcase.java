@@ -3,13 +3,16 @@ package controlflow;
 public class Switchcase {
 	
 	public static void main(String[] args)
-	{ int a=10;
-	switch (a)
+	{ char i='h';
+	switch (i)
 	{
-	case 10: System.out.println("Android"); break;
-	case 20: System.out.println("iOS"); break;
-	case 30: System.out.println("Macintosh"); break;
-	default: System.out.println("ubantu"); break;
+	default: System.out.println("ubantu"); 
+	case 10: System.out.println("Android"); 
+	
+	case 20: System.out.println("iOS"); 
+	case 97: System.out.println("Macintosh"); 
+	
+	
 	}
 	}
 

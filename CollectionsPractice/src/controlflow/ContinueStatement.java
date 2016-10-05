@@ -9,6 +9,7 @@ public class ContinueStatement {
 			if (i==5)
 				continue;
 			System.out.println(i);
+			
 		}
 	}
 }

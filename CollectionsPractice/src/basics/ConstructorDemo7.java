@@ -12,7 +12,7 @@ public class ConstructorDemo7 {
 		ConstructorDemo7(ConstructorDemo7 con){
 			this.username=con.username;
 			this.password=con.password;
-			//display();
+			display();
 		}
 		
 		void display(){
@@ -25,7 +25,7 @@ public class ConstructorDemo7 {
 		ConstructorDemo7 obj1 = new ConstructorDemo7("testuser@gmail.com","abcd1234");
 		ConstructorDemo7 obj2 = new ConstructorDemo7(obj1);
 		obj1.display();
-		obj2.display();
+		//obj2.display();
 
 	}
 

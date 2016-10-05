@@ -2,7 +2,7 @@ package basics;
 
 public class ConstructorDemo6 {
 	ConstructorDemo6(){
-		this(100);
+		this(111);
 		System.out.println("0-arg constructor");
 	}
 	ConstructorDemo6(int a){

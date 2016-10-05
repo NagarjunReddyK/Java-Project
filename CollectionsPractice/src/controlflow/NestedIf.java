@@ -6,9 +6,10 @@ public class NestedIf {
 	      int x = 30;
 	      int y = 10;
 
-	      if( x == 30 ) {
+	      if( x == 30 )
+	      {
 	    	  
-	         if( y == 10 ) {
+	         if( y == 20 ) {
 	            System.out.print("X = 30 and Y = 10");
 	         }
 	         else

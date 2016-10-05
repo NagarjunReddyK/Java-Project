@@ -1,5 +1,5 @@
 package basics;
-
+//Ex: Return current class object
 public class MethodsDemo17 {
 	MethodsDemo17 method1(){
 		System.out.println("method1");

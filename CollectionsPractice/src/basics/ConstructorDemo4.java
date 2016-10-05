@@ -18,6 +18,7 @@ public class ConstructorDemo4 {
 		ConstructorDemo4 obj = new ConstructorDemo4();
 		obj.display();
 
+
 	}
 
 }

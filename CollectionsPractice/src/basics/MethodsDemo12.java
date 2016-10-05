@@ -13,7 +13,7 @@ public class MethodsDemo12 {
 	}
 	public static void main(String[] args){
 		MethodsDemo12 obj = new MethodsDemo12();
-		obj.credentials("nag@gmail.com", "test@123");
+		obj.credentials("nag@gmail.com", "Test@123");
 		obj.login();
 	}
 
