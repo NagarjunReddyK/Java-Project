@@ -12,6 +12,6 @@ public class FinallyDemo1 {
 		finally{
 			System.out.println("finally block is always executed.....!");
 		}
-		System.out.println("rest of the code......");
+		System.out.println("rest of the code...!");
 	}
 }
