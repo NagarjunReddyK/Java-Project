@@ -10,7 +10,7 @@ public class FinallyDemo1 {
 			System.out.println(ne);
 		}
 		finally{
-			System.out.println("finally block is always executed...");
+			System.out.println("finally block is always executed.....!");
 		}
 		System.out.println("rest of the code......");
 	}
