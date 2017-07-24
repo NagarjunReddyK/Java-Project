@@ -10,7 +10,7 @@ public class MultilevelInheritance extends Parent2{
 		c.m2();
 		c.m3();
 		c.m4();
-		//c.m5();
+		c.m5();
 	}
 
 }

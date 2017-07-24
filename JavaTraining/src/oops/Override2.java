@@ -11,6 +11,7 @@ public class Override2 extends Overridden2{
 		
 		Override2 obj=new Override2();
 		Dashboard d=obj.m1();
+		d.m1();
 		
 	}
 
@@ -28,5 +29,7 @@ class Login{
 }
 
 class Dashboard extends Login{
-	
+	void m1(){
+		System.out.println("m1 method");
+	}
 }

@@ -6,7 +6,8 @@ public class SuperConstructors2 extends ConstructorsParent2{
 		System.out.println("Chicd class 0-arg constructor");
 	}
 	SuperConstructors2(int a){
-		//super(); compiler generates this super 
+		//super(); compiler generates this super
+		super(10);
 		System.out.println("Chicd class 1-arg constructor");
 	}
 	public static void main(String[] args) {
@@ -17,6 +18,9 @@ public class SuperConstructors2 extends ConstructorsParent2{
 
 class ConstructorsParent2{
 	ConstructorsParent2(){
+		System.out.println("Parent 0-arg constructor");
+	}
+	ConstructorsParent2(int a){
 		System.out.println("Parent 0-arg constructor");
 	}
 }

@@ -7,8 +7,8 @@ public class Hierarchical {
 		h2.m2();
 		
 		H3 h3=new H3();
-		h3.m1();
-		h3.m3();
+	h3.m1();
+	h3.m3();
 
 	}
 }
