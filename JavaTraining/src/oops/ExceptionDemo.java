@@ -2,7 +2,7 @@ package oops;
 
 public class ExceptionDemo {
 	void m1() throws InterruptedException{
-		Thread.sleep(3000);
+		Thread.sleep(3000); //Predefined method
 	}
 	void m2() throws InterruptedException{
 		m1();
