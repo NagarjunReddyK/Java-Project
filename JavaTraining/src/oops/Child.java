@@ -1,7 +1,7 @@
 package oops;
 
 public class Child extends Parent {
-	public void m1(int p,int q){
+	void m1(int p,int q){
 		System.out.println("Child class m1 method");
 	}
 	public static void main(String[] args) {

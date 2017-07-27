@@ -7,6 +7,7 @@ public class ThrowsDemo1 {
 	void m2() throws InterruptedException{
 		m1();
 		System.out.println("m2 method");
+		Thread.sleep(3000);
 	}
 	
 	void me3(){
