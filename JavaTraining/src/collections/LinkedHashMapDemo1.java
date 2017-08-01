@@ -27,7 +27,7 @@ public class LinkedHashMapDemo1 {
 	      
 	      System.out.println(hmCountry);
 	      
-	   //display the HashMap content using Iterator
+	   /*//display the HashMap content using Iterator
 	      Set<Entry<String, String>> set=hmCountry.entrySet();
 	      Iterator<Entry<String, String>> itr=set.iterator();
 	      while(itr.hasNext()){
@@ -43,10 +43,17 @@ public class LinkedHashMapDemo1 {
 	    	  System.out.println("");
 	      }
 	      
+	    //To get all the keys
+	      System.out.println("-----All the keys-----");
+	      Set<String> st=hmCountry.keySet();
+	      for(String s:st)
+	    	  System.out.println(s);
+	      
 	      // To display all values
+	      System.out.println("-----All the values-----");
 	      Collection<String> c=hmCountry.values();
 	      for(String str:c)
-	    	  System.out.println(str);
+	    	  System.out.println(str);*/
 	}
 
 }

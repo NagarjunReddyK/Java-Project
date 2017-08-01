@@ -25,17 +25,16 @@ public class LinkedHashMapDemo2 {
 			
 		}
 		
-		//Using for-each loop
+		/*//Using for-each loop
 		for(Map.Entry<Login, Dashboard> f:s){
 			System.out.println(f.getKey().username+"---"+f.getKey().password);
 			System.out.println(f.getValue().billId+"---"+f.getValue().billNumber);
-		}
+		}*/
 	}
 }
 
 class Login{
 	String username,password;
-	int userid=239;
 	Login(String username, String password){
 		this.username=username;
 		this.password=password;
