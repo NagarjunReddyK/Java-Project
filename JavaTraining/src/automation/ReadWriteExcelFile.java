@@ -30,6 +30,7 @@ class ReadWriteExcelFile {
 				System.out.println(value);
 			}
 		}
+		fis.close();
 		
 		//To write the data into Excel file
 		sheet.getRow(0).createCell(2).setCellValue("Company Name");
@@ -38,10 +39,10 @@ class ReadWriteExcelFile {
 		
 		FileOutputStream fos=new FileOutputStream(excelPath);
 		workbook.write(fos);
-		//To close the workbook and i/p & o/p streams
+		//To close the workbook and o/p stream
 		workbook.close();
 		fos.close();
-		fis.close();
+		
 
 	}
 
