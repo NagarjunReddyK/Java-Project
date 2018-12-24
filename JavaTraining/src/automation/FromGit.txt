@@ -1,9 +1,7 @@
 public class FromGit{
-
 public static void main(String[] args){
 System.out.println("This is the file pulled from github ");
 }
-
 }
 
 
