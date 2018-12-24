@@ -11,3 +11,6 @@
 		driver.findElement(By.linkText("Retail R26.5")).click();
 		driver.findElement(By.id("cpBody_divqlbillpayments")).click();
 		driver.findElement(By.id("cpBody_btnPay")).click();*/
+
+		
+		//Updated this file in eclipse
