@@ -21,6 +21,6 @@ class ConstructorsParent2{
 		System.out.println("Parent 0-arg constructor");
 	}
 	ConstructorsParent2(int a){
-		System.out.println("Parent 0-arg constructor");
+		System.out.println("Parent 1-arg constructor");
 	}
 }

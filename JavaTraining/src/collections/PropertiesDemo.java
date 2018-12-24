@@ -23,5 +23,4 @@ public class PropertiesDemo {
 		System.out.println("First Name:"+txtFirstName);
 		System.out.println("Last Name:"+txtLastName);
 	}
-
 }

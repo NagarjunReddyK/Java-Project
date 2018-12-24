@@ -16,8 +16,8 @@ public class ListCompare {
         one.add("two");
         one.add("six");
 
-        two.add("two");
         two.add("one");
+        two.add("two");
         two.add("six");
 
         System.out.println("Output1 :: "+compareList(one,two));
