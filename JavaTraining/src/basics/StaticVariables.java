@@ -2,8 +2,8 @@ package basics;
 
 public class StaticVariables {
 	//static variables
-	static String name;
-	static int age;
+	static String name="test name";
+	static int age=30;
 	//static method
 	public static void main(String[] args){
 		System.out.println("Name is: "+name+", Age is: "+age); // direct access

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="266" started-at="2019-06-06T11:48:11Z" finished-at="2019-06-06T11:48:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="266" started-at="2019-06-06T11:48:11Z" finished-at="2019-06-06T11:48:11Z">
+      <class name="dataproviders.DataProviderExcelData">
+        <test-method status="PASS" signature="verifyExcelData(java.lang.String, java.lang.String)[pri:0, instance:dataproviders.DataProviderExcelData@6093dd95]" name="verifyExcelData" duration-ms="31" started-at="2019-06-06T17:18:11Z" data-provider="DP" finished-at="2019-06-06T17:18:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExcelData -->
+      </class> <!-- dataproviders.DataProviderExcelData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

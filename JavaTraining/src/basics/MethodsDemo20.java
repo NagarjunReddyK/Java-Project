@@ -1,6 +1,6 @@
 package basics;
 
-public class MethodsDemo3 {
+public class MethodsDemo20 {
 	void login1(Dashboard db){
 		System.out.println("login1 instance method with object as parameter");
 		db.dash();
@@ -12,12 +12,12 @@ public class MethodsDemo3 {
 		pay.pay();
 	}
 	public static void main(String[] args){
-		MethodsDemo3 obj = new MethodsDemo3();
+		MethodsDemo20 obj = new MethodsDemo20();
 		Dashboard db = new Dashboard();
 		ApproveBills approve = new ApproveBills();
 		PayBills pay = new PayBills();
 		obj.login1(db); // calling instance method by passing object as input
-		MethodsDemo3.login2(approve, pay); // calling static method by passing objects as input
+		MethodsDemo20.login2(approve, pay); // calling static method by passing objects as input
 		
 		/*//main method code at real time project level
 		new MethodsDemo3().login1(new Dashboard());

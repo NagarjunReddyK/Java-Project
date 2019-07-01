@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DataProviderParameterExampleSuite" parallel="false">
+  <test name="UnitLevel">
+    <classes>
+      <class name="dataproviders.DataProviderParametersExample"/>
+    </classes>
+  </test>
+   
+  <test name="AcceptanceLevel">
+    <classes>
+      <class name="dataproviders.DataProviderParametersAcceptance"/>
+    </classes>
+  </test>
+   
+  <test name="IntegrationLevel">
+    <classes>
+      <class name="dataproviders.DataProviderParametersIntegration"/>
+    </classes>
+  </test>
+</suite>

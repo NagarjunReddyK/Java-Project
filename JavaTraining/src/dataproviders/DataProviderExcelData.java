@@ -8,10 +8,9 @@ import org.testng.annotations.Test;
 import jxl.read.biff.BiffException;
 
 public class DataProviderExcelData {
-	
 	@Test(dataProvider="DP")
-	public void verifyExcelData(String username,String password){
-		System.out.println("Excel Data: "+username+" ,"+password);
+	public void verifyExcelData(String username1,String password1){
+		System.out.println("Excel Data: "+username1+" ,"+password1);
 	}
 	
 	

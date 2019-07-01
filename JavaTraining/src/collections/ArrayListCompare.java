@@ -14,7 +14,7 @@ public class ArrayListCompare {
 	    // Check for sizes and nulls
 	  /*  if ((a.size() != b.size()) || (a == null && b!= null) || (a != null && b== null)){
 	       // return false;
-	    	System.out.println("equal");
+	    	System.out.println("NOT equal");
 	    } */
 
 
