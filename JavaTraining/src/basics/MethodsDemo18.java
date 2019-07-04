@@ -2,15 +2,16 @@ package basics;
 
 //Example 18: Method Recursion
 public class MethodsDemo18 {
-	static void recursive(int a){
+	static void recursive1(int a){
 		System.out.println("Number is: "+a);
-		if(a==0)
+		if(a==0){
 			return;
-		recursive(--a); //calling same method within the method
+		}			
+		recursive1(--a); //calling same method within the method
 	}
 
 	public static void main(String[] args) {
-		MethodsDemo18.recursive(10);
+		MethodsDemo18.recursive1(10);
 	}
 
 }

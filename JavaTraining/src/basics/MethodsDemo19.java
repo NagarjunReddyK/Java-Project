@@ -24,12 +24,12 @@ public class MethodsDemo19 {
 	public static void main(String[] args) {
 		MethodsDemo19 obj = new MethodsDemo19();
 		//Normal approach
-		obj.login();
+		/*obj.login();
 		obj.searchProduct();
 		obj.selectProduct();
-		obj.billing();
+		obj.billing();*/
 		// By using Template method
-		//obj.purchase(); //this method calls four methods to complete our task	
+		obj.purchase(); //this method calls four methods to complete our task	
 
 	}
 

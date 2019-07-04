@@ -12,7 +12,7 @@ public class ClassObj {
 		person1.age=30;
 		
 		Person person2=new Person();
-		person2.name="Prasad";
+		person2.name="asdfghijkl";
 		person2.age=35;
 		
 		System.out.println(person1.name);

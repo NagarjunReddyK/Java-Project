@@ -3,8 +3,8 @@ package basics;
 public class MethodsDemo16 {
 	ApproveDocs review(){
 		System.out.println("review method");
-		ApproveDocs app=new ApproveDocs();
-		return app;
+		//ApproveDocs app=new ApproveDocs();
+		return new ApproveDocs();
 	}
 	PayDocs approveDoc(){
 		System.out.println("approveDoc method");
@@ -19,10 +19,14 @@ public class MethodsDemo16 {
 		MethodsDemo16 obj = new MethodsDemo16();
 		ApproveDocs ap = obj.review();
 		System.out.println("review method return value ---> "+ap);
-		//ap.approve();
+		System.out.println("a value is: "+ap.a);
+		ap.approve();
+		
 		PayDocs pd = obj.approveDoc();
 		System.out.println("approveDoc method return value ---> "+pd);
-		//pd.pay();
+		pd.pay();
+		System.out.println("x value is: "+pd.x);
+		
 		String str = MethodsDemo16.result();
 		System.out.println("result method return value ---> "+str);
 
@@ -30,13 +34,16 @@ public class MethodsDemo16 {
 
 }
 
-class ApproveDocs{
+/*class ApproveDocs{
+	int a=20;
 	void approve(){
 		System.out.println("approve method");
 	}
-}
+}*/
+
 
 class PayDocs{
+	int x=111;
 	void pay(){
 		System.out.println("pay method");
 	}
