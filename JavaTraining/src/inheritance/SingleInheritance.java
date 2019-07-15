@@ -1,4 +1,4 @@
-package oops;
+package inheritance;
 
 public class SingleInheritance extends SingleParent{
 	void m3(){
@@ -7,21 +7,20 @@ public class SingleInheritance extends SingleParent{
 	void m4(){
 		System.out.println("Child class m4 method.");
 	}
+
 	public static void main(String[] args) {
+		//Object creation for Child class
 		SingleInheritance c=new SingleInheritance();
-		SingleInheritance.m1();
+		c.m1();
 		c.m2();
 		c.m3();
 		c.m4();
-		
-}
-}
+			
 
-class SingleParent{
-	static void m1(){
-		System.out.println("Parent class m1 method...");
-	}
-	void m2(){
-		System.out.println("Parent class m2 method...");
+		//object creation for Parent class
+		SingleParent p=new SingleParent();
+		p.m1();
+		p.m2();
+
 	}
 }

@@ -1,4 +1,4 @@
-package oops;
+package inheritance;
 
 public class Hierarchical {
 	public static void main(String[] args) {

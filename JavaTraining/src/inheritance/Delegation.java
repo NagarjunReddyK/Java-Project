@@ -1,4 +1,4 @@
-package oops;
+package inheritance;
 
 public class Delegation {
 	public static void main(String[] args) {
@@ -6,7 +6,6 @@ public class Delegation {
 		Statement st=new Statement();
 		st.getDetails();
 	}
-
 }
 
 class Transaction{

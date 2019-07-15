@@ -1,4 +1,4 @@
-package oops;
+package inheritance;
 
 public class MultilevelInheritance extends Parent2{
 	void m5(){
