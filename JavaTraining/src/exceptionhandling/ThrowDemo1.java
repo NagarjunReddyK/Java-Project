@@ -1,4 +1,4 @@
-package oops;
+package exceptionhandling;
 
 public class ThrowDemo1 {
 	void verify(int dbCount) throws Exception{

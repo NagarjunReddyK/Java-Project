@@ -1,4 +1,4 @@
-package oops;
+package exceptionhandling;
 
 public class ThrowDemo2 {
 	void verify(int dbCount) throws InvalidCountException{

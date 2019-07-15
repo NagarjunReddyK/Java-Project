@@ -1,4 +1,4 @@
-package oops;
+package exceptionhandling;
 
 public class FinallyDemo1 {
 	public static void main(String[] args) {

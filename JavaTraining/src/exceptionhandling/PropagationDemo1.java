@@ -1,4 +1,4 @@
-package oops;
+package exceptionhandling;
 
 public class PropagationDemo1 {
 	void m1(){

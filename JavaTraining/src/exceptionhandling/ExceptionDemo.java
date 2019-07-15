@@ -1,4 +1,4 @@
-package oops;
+package exceptionhandling;
 
 public class ExceptionDemo {
 	void m1() throws InterruptedException{
