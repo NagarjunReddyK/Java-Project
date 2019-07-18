@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Child extends Parent {
+public class Child extends Parent{
 	void m2(){
 		System.out.println("Child m2 method");
 	}
@@ -22,5 +22,4 @@ public class Child extends Parent {
 	//	Child c=new Parent(); //Type mismatch: cannot convert from Parent to Child
 	
 	}
-
 }
