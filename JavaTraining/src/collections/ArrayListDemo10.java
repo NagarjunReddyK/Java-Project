@@ -13,7 +13,7 @@ public class ArrayListDemo10 {
 		al.add("Vendor2");
 		String[] a = new String[al.size()];
 		al.toArray(a);
-		//Print the values using for-each loop
+		//Print the values using for-each loop//
 		for(String s:al)
 			System.out.println(s);
 	}
