@@ -17,7 +17,7 @@ public class ArrayListDemo7 {
 				lstr.set("NagarjunReddy");
 				//lstr.remove();
 		}
-		//lstr.remove(); //removes the last element
+		//lstr.remove(); //removes the last element//
 		for(String str:al)
 			System.out.println(str);
 	}

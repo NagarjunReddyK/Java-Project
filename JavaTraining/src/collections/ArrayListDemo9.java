@@ -10,7 +10,7 @@ public class ArrayListDemo9 {
 		ArrayList<String> al = new ArrayList<String>(Arrays.asList(str));
 		al.add("Vendor4");
 		al.add("Vendor5");
-		//Print the values using for-each loop
+		//Print the values using for-each loop//
 		for(String s:al)
 			System.out.println(s);
 	}

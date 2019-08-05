@@ -11,12 +11,12 @@ public class ArrayListDemo1 {
 		al.add('K');
 		System.out.println(al);
 		for(Object o:al){
-			if(o instanceof Integer)
+			//if(o instanceof Integer)
 				System.out.println(o.toString());
-			if(o instanceof String)
-				System.out.println(o);
-			if(o instanceof Character)
-				System.out.println(o.toString());
+			//if(o instanceof String)
+				/*System.out.println(o);
+			//if(o instanceof Character)
+				System.out.println(o.toString());*/
 		}
 	}
 

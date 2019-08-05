@@ -2,8 +2,8 @@ package collections;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
-
-public class ListIteratorDemo3 {
+//
+public class ListIteratorDemo2 {
 	public static void main(String[] args) {
 		ArrayList<String> al =new ArrayList<String>();
 		al.add("Vendor4");

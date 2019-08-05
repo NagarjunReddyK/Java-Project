@@ -15,19 +15,19 @@ public class ArrayListDemo8 {
 	   System.out.println("ArrayList data before sorting:");
 	   for(String str:al)
 		   System.out.println(str);
-	   
-	   //Sorting ArrayList in ascending order
+	   Collections.sort(al);
+	 /*  //Sorting ArrayList in ascending order//
 	   Collections.sort(al);
 	   System.out.println("ArrayList data after sorting:");
 	   for(String str:al)
-		   System.out.println(str);
-	   
+		   System.out.println(str);*/
+	 /*  
 	 //Sorting ArrayList in decending order
 	   //approach-1
 	   Collections.sort(al,Collections.reverseOrder());
 	   System.out.println("ArrayList data after sorting in descending order:");
 	   for(String str:al)
-		   System.out.println(str);
+		   System.out.println(str);*/
 	   
 	   //approach-2
 	   System.out.println("using reverse method");

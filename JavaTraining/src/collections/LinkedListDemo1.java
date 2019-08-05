@@ -1,7 +1,7 @@
 package collections;
 
 import java.util.LinkedList;
-
+//
 public class LinkedListDemo1 {
 	public static void main(String[] args){
 		LinkedList<String> l=new LinkedList<String>();
@@ -19,9 +19,9 @@ public class LinkedListDemo1 {
 		l.remove("Vendor42"); //remove specified Object
 		System.out.println(l.remove("Vendor42"));
 		l.remove(2); //remove the object of specified index
-		System.out.println("after deletion : "+l);//A1 B D
+		System.out.println("after deletion : "+l);//
 		String val = l.get(0); //get method used to get the element
 		l.set(2,val+"changed"); //set method used to replacement
-		System.out.println("after seting:-"+l);
+		System.out.println("after setting:-"+l);
 	}
 }

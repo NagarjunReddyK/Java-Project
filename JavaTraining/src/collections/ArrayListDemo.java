@@ -7,16 +7,24 @@ public class ArrayListDemo {
 		ArrayList<String> al=new ArrayList<String>();
 		al.add("Vendor1");
 		al.add("Vendor4");
-		al.add("Vendor2");//1
+		al.add("Vendor2");
 		al.add("Vendor3");
 		al.add("Vendor12");
 		al.add("Vendor10");
 		
+		ArrayList<String> al2=new ArrayList<String>();
+		al2.add("Vendor10");
+		al2.add("Vendor12");
+		al2.add("Vendor30");
+		al2.add("Vendor40");
+		
+		System.out.println(al2.retainAll(al));
+		System.out.println(al2);
 		
 		
 		
-		
-		//al.set(1, "New Vendor");
+		/*al.set(1, "new vendor");
+		System.out.println(al);*/
 		
 		/*System.out.println(al.indexOf("Vendor10"));
 		System.out.println(al);

@@ -2,8 +2,8 @@ package collections;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
-
-public class ListIteratorDemo {
+//
+public class ListIteratorDemo1 {
 	public static void main(String[] args){
 		ArrayList<String> al=new ArrayList<String>();
 		al.add("Nag");
@@ -16,9 +16,9 @@ public class ListIteratorDemo {
 		while(litr.hasNext()){
 			String data=litr.next();
 			if(data.equals("XTGlobal")){
-				//litr.set("XTGLOBAL");
+				litr.set("XTGLOBAL");
 				//litr.add("Xenosoft");
-				litr.remove();
+				//litr.remove();
 			}
 		}
 		System.out.println(al);

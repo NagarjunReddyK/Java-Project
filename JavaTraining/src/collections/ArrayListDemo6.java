@@ -13,13 +13,13 @@ public class ArrayListDemo6 {
 	    al.add("element3");
 	    al.add("element4");
 	    al.add("element5");
-	    //1st approach to retrieve data from ArrayList
+	    //1st approach to retrieve data from ArrayList//
 	    System.out.println("--- using for-each loop ---");
 	    for(String str:al)
 	    	System.out.println(str);
 	    
 	    //2nd approach to retrieve data from ArrayList
-	    System.out.println("--- using for loop ---");
+	    System.out.println("--- using get method in for loop ---");
 	    for(int i=0;i<al.size();i++)
 	    	System.out.println(al.get(i));
 	    
