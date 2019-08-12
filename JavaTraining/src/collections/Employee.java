@@ -13,7 +13,7 @@ public class Employee {
 	        this.salary = salary;
 	    }
 	 
-	    // getters and setters
+	    // getters and setters//
 	    public void setName(String name){
 	    	this.name=name;
 	    }

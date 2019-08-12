@@ -12,14 +12,10 @@ public class IteratorDemo1 {
 		Iterator<Integer> itr=al.iterator();
 		while(itr.hasNext()){
 			Integer in=itr.next();
-			if(in%2==0){
-				System.out.println(in+" --EVEN Number.");
-			}
-			else{
+			if(!(in%2==0)){
 				itr.remove();
 			}
 		}
 		System.out.println(al);
 	}
-
 }

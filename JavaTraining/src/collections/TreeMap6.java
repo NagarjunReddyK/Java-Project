@@ -2,15 +2,16 @@ package collections;
 
 import java.util.Map;
 import java.util.TreeMap;
-
-public class TreeMapDemo4 {
+//
+public class TreeMap6 {
 	public static void main(String[] args) {
 		TreeMap<String,String> tm=new TreeMap<String,String>();
-		tm.put("manager", "Murali");
-		tm.put("teamlead", "Prasad");
-		tm.put("senior", "Senior1");
-		tm.put("member", "Chaitanya");
-		tm.put("junior", "Ravikumar");
+		tm.put("review", "btnReview");
+		tm.put("approve", "Approve");
+		tm.put("pay", "Pay");
+		tm.put("delete", "lnkDelete");
+		tm.put("reject", "btnReject");
+		tm.put("cancel", "lnkCancel");
 		
 		System.out.println(tm);
 		Map.Entry<String, String> m1=tm.pollFirstEntry();

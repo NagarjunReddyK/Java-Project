@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CollectionGetterSetterObject {
-	//private List<Person> listPeople;
+	//private List<Person> listPeople;//
 	private List<Person> listPeople=new ArrayList<Person>();
 	
 	/*public void setListPeople(List<Person> list){

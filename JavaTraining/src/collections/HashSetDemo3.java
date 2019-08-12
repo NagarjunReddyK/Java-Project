@@ -1,12 +1,14 @@
 package collections;
 
+import java.util.ArrayList;
 import java.util.HashSet;
-
+//Add one HashSet obj into another HashSet
 public class HashSetDemo3 {
 	public static void main(String[] args) {
-		HashSet<String> h1 = new HashSet<String>();
+		ArrayList<String> h1 = new ArrayList<String>();
 		h1.add("Vendor1");
 		h1.add("Vendor2");
+		h1.add("Vendor3");
 		h1.add("Vendor3");
 		
 		HashSet<String> h2 = new HashSet<String>(h1);

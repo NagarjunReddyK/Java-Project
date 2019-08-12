@@ -15,7 +15,7 @@ public class ArrayListDemo8 {
 	   System.out.println("ArrayList data before sorting:");
 	   for(String str:al)
 		   System.out.println(str);
-	   Collections.sort(al);
+	 
 	 /*  //Sorting ArrayList in ascending order//
 	   Collections.sort(al);
 	   System.out.println("ArrayList data after sorting:");
