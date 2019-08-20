@@ -7,6 +7,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.Properties;
 
 public class MasterDB {
@@ -36,4 +37,17 @@ public class MasterDB {
 		}
 		return otp;
 	}
+	
+	public ArrayList<String> getJobTitles() throws SQLException{
+		String query="SELECT * FROM mtblJobTitle WHERE mIsActive=1";
+		PreparedStatement ps= con.prepareStatement(query);
+		ResultSet rs=ps.executeQuery();
+		ArrayList<String> al=new ArrayList<>();
+		while(rs.next()){
+			al.add(rs.getString("mJobTitleName"));
+		}
+		return al;
+	}
+	
+
 }
