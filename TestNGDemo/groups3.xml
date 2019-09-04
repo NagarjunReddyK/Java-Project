@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Groups Suite">
+
+	<test name="Meta Groups Test">
+		<groups>
+			<define name="testsuite-1">
+				<include name="sanity" />
+				<include name="regression" />
+			</define>
+			<define name="testsuite-2">
+				<include name="endtoend" />
+				<include name="volumetest" />
+			</define>
+			<run>
+				<include name="testsuite-1" />
+				<include name="testsuite-2" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testsuite.TestGroupsDemo3" />
+		</classes>
+	</test>
+</suite>

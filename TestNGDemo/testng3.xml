@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Module-1">
+		<classes>
+			<class name="testsuite.TestNGExample1" />
+			<class name="testsuite.TestNGExample2" />
+		</classes>
+	</test>
+	
+	<test name="Module-02">
+		<classes>
+			<class name="testsuite.TestNGExample3">
+				<methods>
+					<include name="tc_Search_1.*" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

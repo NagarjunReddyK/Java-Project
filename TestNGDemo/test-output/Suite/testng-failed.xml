@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="url" value="http://qa.circulus.io/"/>
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testsuite.AutomationDemo4">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loadFiles"/>
+          <include name="beforeClass"/>
+          <include name="tc_SignUp_01"/>
+          <include name="screenshot"/>
+        </methods>
+      </class> <!-- testsuite.AutomationDemo4 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

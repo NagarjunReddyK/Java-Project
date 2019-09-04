@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameter test Suite">
+	<!-- This parameter will be passed to every test in this suite -->
+    <parameter name="suite-param" value="suite level parameter" />
+    <test name="Parameter Test one">
+        <classes>
+            <class name="testsuite.ParameterTest">
+                <methods>
+                    <include name="prameterTestOne" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Parameter Test two">
+     <parameter name="test-param" value="Test level parameter" />
+        <classes>
+            <class name="testsuite.ParameterTest">
+                <methods>
+                    <include name="prameterTestTwo" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Parameter Test Three">
+      <parameter name="suite-param" value="Test level parameter" />
+      <parameter name="test-three-param" value="Test Three parameter" />
+        <classes>
+            <class name="testsuite.ParameterTest">
+                <methods>
+                    <include name="prameterTestThree" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+</suite>

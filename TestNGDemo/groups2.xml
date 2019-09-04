@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Groups Suite">
+
+	<test name="Groups Test-01">
+		<groups>
+			<run>
+				<include name="default" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testsuite.TestGroupsDemo2" />
+		</classes>
+	</test>
+	
+	<test name="Groups Test-02">
+		<groups>
+			<run>
+				<include name="regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testsuite.TestGroupsDemo2" />
+		</classes>
+	</test>
+
+</suite>
