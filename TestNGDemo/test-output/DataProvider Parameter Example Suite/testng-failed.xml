@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DataProvider Parameter Example Suite]">
+  <test name="SanityTest(failed)">
+    <classes>
+      <class name="dataproviders.DataProviderITestContext1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="tc_Login_02" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- dataproviders.DataProviderITestContext1 -->
+    </classes>
+  </test> <!-- SanityTest(failed) -->
+</suite> <!-- Failed suite [DataProvider Parameter Example Suite] -->

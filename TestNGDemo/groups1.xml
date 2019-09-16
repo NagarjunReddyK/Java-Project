@@ -3,12 +3,12 @@
 <suite name="Groups Suite">
 
 	<test name="Groups Test">
-		<groups>
+		<!-- <groups>
 			<run>
 				<include name="sanity" />
 				<exclude name="regression" />
 			</run>
-		</groups>
+		</groups> -->
 		<classes>
 			<class name="testsuite.TestGroupsDemo2" />
 		</classes>

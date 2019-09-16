@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Groups Suite]">
+  <test name="Groups Test(failed)">
+    <groups>
+      <run>
+        <include name="login"/>
+        <include name="signup"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="dataproviders.DataProviderGroups">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="tc_Login_04"/>
+          <include name="beforeSuite"/>
+          <include name="tc_Login_03"/>
+        </methods>
+      </class> <!-- dataproviders.DataProviderGroups -->
+    </classes>
+  </test> <!-- Groups Test(failed) -->
+</suite> <!-- Failed suite [Groups Suite] -->

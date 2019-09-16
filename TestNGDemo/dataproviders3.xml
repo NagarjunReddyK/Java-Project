@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DataProvider Parameter Example Suite" parallel="false">
+	<test name="SanityTest">
+		<classes>
+			<class name="dataproviders.DataProviderITestContext1" />
+		</classes>
+	</test>
+
+	<test name="RegressionTest">
+		<classes>
+			<class name="dataproviders.DataProviderITestContext2" />
+		</classes>
+	</test>
+
+</suite>
