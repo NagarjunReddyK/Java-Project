@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69" started-at="2019-09-20T04:19:17Z" finished-at="2019-09-20T04:19:17Z">
+    <groups>
+    </groups>
+    <test name="Test Suite" duration-ms="69" started-at="2019-09-20T04:19:17Z" finished-at="2019-09-20T04:19:17Z">
+      <class name="testsuite.TestModule2">
+        <test-method status="PASS" signature="tc_Module2_01()[pri:0, instance:testsuite.TestModule2@5c3bd550]" name="tc_Module2_01" duration-ms="0" started-at="2019-09-20T09:49:17Z" finished-at="2019-09-20T09:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Module2_01 -->
+        <test-method status="PASS" signature="tc_Module2_02()[pri:0, instance:testsuite.TestModule2@5c3bd550]" name="tc_Module2_02" duration-ms="0" started-at="2019-09-20T09:49:17Z" finished-at="2019-09-20T09:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Module2_02 -->
+        <test-method status="PASS" signature="tc_Module2_03()[pri:0, instance:testsuite.TestModule2@5c3bd550]" name="tc_Module2_03" duration-ms="0" started-at="2019-09-20T09:49:17Z" finished-at="2019-09-20T09:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Module2_03 -->
+      </class> <!-- testsuite.TestModule2 -->
+      <class name="testsuite.TestModule1">
+        <test-method status="PASS" signature="tc_Module1_01()[pri:0, instance:testsuite.TestModule1@3bfdc050]" name="tc_Module1_01" duration-ms="22" started-at="2019-09-20T09:49:17Z" finished-at="2019-09-20T09:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Module1_01 -->
+        <test-method status="PASS" signature="tc_Module1_02()[pri:0, instance:testsuite.TestModule1@3bfdc050]" name="tc_Module1_02" duration-ms="15" started-at="2019-09-20T09:49:17Z" finished-at="2019-09-20T09:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Module1_02 -->
+        <test-method status="PASS" signature="tc_Module1_03()[pri:0, instance:testsuite.TestModule1@3bfdc050]" name="tc_Module1_03" duration-ms="0" started-at="2019-09-20T09:49:17Z" finished-at="2019-09-20T09:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_Module1_03 -->
+      </class> <!-- testsuite.TestModule1 -->
+    </test> <!-- Test Suite -->
+  </suite> <!-- Suite -->
+</testng-results>

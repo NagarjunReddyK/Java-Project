@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="testsuite.Listener" />
+	</listeners>
+	
+	<parameter name="url" value="http://qa.circulus.io/" />
+	<test name="Login Suite">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testsuite.SignUpTest" />
+		</classes>
+	</test>
+
+</suite>
